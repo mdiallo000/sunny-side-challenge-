@@ -68,3 +68,34 @@ Header and Navbar
 Cards Container CSS
 =====================================
 */
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* height: 500px; */
+  column-gap: 0;
+}
+.card {
+  height: 25rem;
+  width: 25rem;
+  margin: 0;
+  background-color: aqua;
+}
+.card-one {
+  background-color: brown;
+}
+.card-two {
+  background-color: yellow;
+}
+.card-three {
+  background-color: blue;
+}
+.card-four {
+  background: orange;
+}
+.card-five {
+  background: crimson;
+}
+
+.card-six {
+  background-color: purple;
+}
