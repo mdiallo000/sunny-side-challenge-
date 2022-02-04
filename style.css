@@ -1,0 +1,64 @@
+@import url(https://fonts.google.com/specimen/Barlow);
+
+:root {
+  --softred: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --graphicdesigntextclr: hsl(167, 40%, 24%);
+  --photographytext: hsl(198, 62%, 26%);
+  --footer: hsl(168, 34%, 41%);
+  --darkblue: hsl(212, 27%, 19%);
+  --veryGrayBlue: hsl(213, 9%, 39%);
+  --darkGrayBlue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --fontsize: 18px;
+  --fontfamily: "Barlow", san-serif;
+  --fontWeigth: 600;
+  --otherFontFamily: "Fraunces", san-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--fontfamily);
+  font-size: var(--fontsize);
+}
+/* 
+====================================
+Header and Navbar 
+====================================
+*/
+
+.header-container {
+  height: 700px;
+
+  background: url("./images/desktop/image-header.jpg") center/cover no-repeat;
+  color: var(--white);
+  /* margin-left: 5px; */
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0 2rem;
+}
+.navbar button {
+  display: inline-block;
+  margin-right: 51px;
+  border-radius: 50px;
+  padding: 0.25rem;
+  border-color: white;
+}
+
+.header-title {
+  text-align: center;
+  margin: 140px auto;
+  background-color: red;
+  letter-spacing: 0.55rem;
+  text-transform: uppercase;
+}
