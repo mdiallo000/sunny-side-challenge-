@@ -70,32 +70,29 @@ Cards Container CSS
 */
 .cards-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* height: 500px; */
+  grid-template-columns: repeat(2, 2fr);
+  height: 800px;
   column-gap: 0;
 }
-.card {
-  height: 25rem;
-  width: 25rem;
-  margin: 0;
-  background-color: aqua;
+.card img {
+  object-fit: cover;
 }
 .card-one {
-  background-color: brown;
+  text-align: center;
+  padding: 1.75rem;
 }
 .card-two {
-  background-color: yellow;
+  background: url("./images/desktop/image-transform.jpg");
 }
 .card-three {
-  background-color: blue;
+  background: url("./images/desktop/image-stand-out.jpg");
 }
 .card-four {
-  background: orange;
 }
 .card-five {
-  background: crimson;
+  background: url("./images/desktop/image-graphic-design.jpg");
 }
 
 .card-six {
-  background-color: purple;
+  background: url("./images/desktop/image-photography.jpg");
 }
