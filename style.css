@@ -71,15 +71,17 @@ Cards Container CSS
 .cards-container {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  height: 800px;
+
   column-gap: 0;
 }
-.card img {
-  object-fit: cover;
+
+.card {
+  height: 30rem;
 }
 .card-one {
   text-align: center;
   padding: 1.75rem;
+  height: fit-content;
 }
 .card-two {
   background: url("./images/desktop/image-transform.jpg");
@@ -90,9 +92,19 @@ Cards Container CSS
 .card-four {
 }
 .card-five {
-  background: url("./images/desktop/image-graphic-design.jpg");
+  background: url("./images/desktop/image-graphic-design.jpg") no-repeat
+    center/cover;
 }
 
 .card-six {
-  background: url("./images/desktop/image-photography.jpg");
+  background: url("./images/desktop/image-photography.jpg") no-repeat
+    center/cover;
+}
+.card img {
+  /* background-repeat: no-repeat;
+    background-size: cover;
+    background: center; */
+
+  width: 100%;
+  height: 100%;
 }
