@@ -1,5 +1,5 @@
 @import url(https://fonts.google.com/specimen/Barlow);
-
+@import url(https://fonts.google.com/specimen/Barlow);
 :root {
   --softred: hsl(7, 99%, 70%);
   --yellow: hsl(51, 100%, 49%);
@@ -76,18 +76,26 @@ Cards Container CSS
 }
 
 .card {
-  height: 50rem;
+  height: 800px;
 }
 .card-one {
   text-align: center;
   padding: 1.75rem;
   height: fit-content;
   display: flex;
-  align-content: flex-end;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 15rem;
 }
-card-one h1 {
+.card-one h1 {
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 4rem;
+  font-family: var(--otherFontFamily);
+  margin-bottom: 5rem;
+}
+.card-one p {
+  font-weight: 600;
+  margin-bottom: 2.5rem;
 }
 
 /* 
