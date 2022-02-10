@@ -250,13 +250,14 @@ card-six
 */
 .testimonial-one img {
   border-radius: 100rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  object-fit: cover;
 }
 .testimonial-one {
   width: 30rem;
   height: 30rem;
   background-color: red;
-  /* display: flex;
-  flex-direction: column; */
   text-align: center;
 }
 .testimonial-one p {
@@ -269,13 +270,17 @@ card-six
 */
 .testimonial-two img {
   border-radius: 100rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  object-fit: cover;
 }
 .testimonial-two {
   width: 30rem;
   height: 30rem;
-  background-color: yellow;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+}
+.testimonial-two p {
+  clear: both;
 }
 /**  
 ==============================
@@ -283,14 +288,19 @@ card-six
 ===============================
 */
 .testimonial-three img {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
   border-radius: 100rem;
+  object-fit: cover;
 }
 .testimonial-three {
   width: 30rem;
   height: 30rem;
   background-color: blue;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+}
+.testimonial-three p {
+  clear: both;
 }
 
 /** 
