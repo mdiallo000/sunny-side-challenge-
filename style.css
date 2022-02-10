@@ -38,15 +38,18 @@ Header and Navbar
   color: var(--white);
   /* margin-left: 5px; */
 }
-
+.sunnyside {
+  display: inline-block;
+}
 .navbar ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   gap: 10px;
   list-style-type: none;
-  margin: 0 2rem;
+  margin: 0 4rem;
 }
+
 .navbar button {
   display: inline-block;
   margin-right: 51px;
@@ -61,6 +64,8 @@ Header and Navbar
   background-color: red;
   letter-spacing: 0.55rem;
   text-transform: uppercase;
+  font-size: 75px;
+  font-family: var(--fontfamily);
 }
 
 /* 
@@ -206,7 +211,7 @@ card-six
 .card-six-connents {
   position: absolute;
   top: 75%;
-  left: 15%;
+  left: 30%;
   text-align: center;
 }
 .card-six-connents h1 {
@@ -216,10 +221,80 @@ card-six
   color: rgb(110, 109, 109);
 }
 /** End of card images */
-/** 
-** Client
-
+/**
+================================ 
+** Testimonial 
+=================================
 */
 
 .testimonal-container {
+  height: 700px;
 }
+
+.testimonial-header {
+  color: rgb(212, 212, 212);
+  display: block;
+  text-align: center;
+  letter-spacing: 0.55rem;
+  text-transform: uppercase;
+  margin: 9rem auto 3rem;
+}
+.testimonial-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/**  
+==============================
+  Testimonail One 
+===============================
+*/
+.testimonial-one img {
+  border-radius: 100rem;
+}
+.testimonial-one {
+  width: 30rem;
+  height: 30rem;
+  background-color: red;
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+.testimonial-one p {
+  clear: both;
+}
+/**  
+==============================
+  Testimonail two
+===============================
+*/
+.testimonial-two img {
+  border-radius: 100rem;
+}
+.testimonial-two {
+  width: 30rem;
+  height: 30rem;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+/**  
+==============================
+  Testimonail three
+===============================
+*/
+.testimonial-three img {
+  border-radius: 100rem;
+}
+.testimonial-three {
+  width: 30rem;
+  height: 30rem;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+/** 
+============================
+**END OF CLIENT TESTIMONIALS
+============================
+**/
