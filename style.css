@@ -257,11 +257,12 @@ card-six
 .testimonial-one {
   width: 30rem;
   height: 30rem;
-  background-color: red;
   text-align: center;
 }
 .testimonial-one p {
   clear: both;
+  margin-bottom: 2rem;
+  font-size: 25px;
 }
 /**  
 ==============================
@@ -281,6 +282,8 @@ card-six
 }
 .testimonial-two p {
   clear: both;
+  margin-bottom: 2rem;
+  font-size: 25px;
 }
 /**  
 ==============================
@@ -296,11 +299,12 @@ card-six
 .testimonial-three {
   width: 30rem;
   height: 30rem;
-  background-color: blue;
   text-align: center;
 }
 .testimonial-three p {
   clear: both;
+  margin-bottom: 2rem;
+  font-size: 25px;
 }
 
 /** 
@@ -308,3 +312,16 @@ card-six
 **END OF CLIENT TESTIMONIALS
 ============================
 **/
+/**  
+==============================
+  Cards Section
+===============================
+*/
+.bottom-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 400px;
+}
+.bottom-cards img {
+  object-fit: cover;
+}
