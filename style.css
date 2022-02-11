@@ -146,7 +146,6 @@ card-four
   height: fit-content;
   display: flex;
   flex-direction: column;
-  /* text-align: center;*/
   align-items: left;
   margin-top: 15rem;
 }
@@ -242,6 +241,8 @@ card-six
 .testimonial-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* justify-content: center; */
+  margin: 0 auto;
 }
 /**  
 ==============================
@@ -255,8 +256,8 @@ card-six
   object-fit: cover;
 }
 .testimonial-one {
-  width: 30rem;
-  height: 30rem;
+  /* width: 30rem;
+  height: 30rem; */
   text-align: center;
 }
 .testimonial-one p {
@@ -276,8 +277,8 @@ card-six
   object-fit: cover;
 }
 .testimonial-two {
-  width: 30rem;
-  height: 30rem;
+  /* width: 30rem;
+  height: 30rem; */
   text-align: center;
 }
 .testimonial-two p {
@@ -297,8 +298,8 @@ card-six
   object-fit: cover;
 }
 .testimonial-three {
-  width: 30rem;
-  height: 30rem;
+  /* width: 30rem;
+  height: 30rem; */
   text-align: center;
 }
 .testimonial-three p {
@@ -318,34 +319,45 @@ card-six
 ===============================
 */
 .bottom-cards {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   height: 400px;
-  flex-grow: 4;
+  justify-items: stretch;
 }
-.image {
+/* .image {
   width: 25rem;
   height: 35rem;
-}
+} */
 .image-one img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .image-two img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .image-three img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .image-four img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 /**  
 ==============================
   attribution
 ===============================
 */
+.attribution {
+  height: 800px;
+  background-color: rgb(111, 187, 162);
+  display: relative;
+  display: flex;
+  flex-direction: column;
+}
