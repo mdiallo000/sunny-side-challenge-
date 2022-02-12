@@ -46,6 +46,7 @@ Header and Navbar
   flex-direction: row;
   justify-content: flex-end;
   gap: 10px;
+
   list-style-type: none;
   margin: 0 4rem;
 }
@@ -130,9 +131,11 @@ card-three
 ===========
 */
 .card-three img {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; */
+  display: block;
+  width: 100%;
 }
 
 /** 
@@ -321,8 +324,8 @@ card-six
 .bottom-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 400px;
-  justify-items: stretch;
+  height: 600px;
+  /* justify-items: stretch; */
 }
 /* .image {
   width: 25rem;
@@ -355,9 +358,13 @@ card-six
 ===============================
 */
 .attribution {
-  height: 800px;
+  height: 500px;
   background-color: rgb(111, 187, 162);
-  display: relative;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.attribution-container {
+  background-color: red;
+  margin-top: 6rem;
 }
