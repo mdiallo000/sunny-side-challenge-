@@ -368,3 +368,12 @@ card-six
   background-color: red;
   margin-top: 6rem;
 }
+.attribution-container h1 {
+  font-size: 3rem;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
