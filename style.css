@@ -362,7 +362,6 @@ card-six
   background-color: rgb(111, 187, 162);
   display: flex;
   justify-content: center;
-  margin: 0 auto;
 }
 .attribution-container {
   background-color: red;
